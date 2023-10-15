@@ -1,5 +1,7 @@
 package lazySingleton;
 
+//게으른 초기화(Lazy Initialization)는 객체가 실제로 필요할 때까지 생성을 늦추는 기술입니다. 게으른 초기화를 사용하는 이유는 성능 최적화와 자원 효율성 때문입니다.
+
 public class LazySingleton {
     // private static 내부 정적 클래스를 통한 게으른 초기화(Lazy Initialization) 방법
     private static class SingletonHelper {
